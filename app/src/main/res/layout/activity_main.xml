@@ -42,8 +42,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="0.1"
                 android:layout_height="wrap_content"
-                android:src="@drawable/music"
-                android:layout_gravity="left"/>
+                android:src="@drawable/music" />
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -452,7 +451,7 @@
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:orientation="horizontal"
-        android:background="@color/colorPrimary"
+        android:background="@color/background"
         android:layout_alignParentBottom="true">
         <ImageView
             android:layout_width="70dp"
@@ -463,6 +462,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:layout_weight="0.9"
             android:layout_marginLeft="16dp">
             <TextView
                 android:layout_weight="0.9"
@@ -481,5 +481,12 @@
                 android:textColor="@android:color/white"
                 android:fontFamily="sans-serif-condensed"/>
         </LinearLayout>
+        <Button
+            android:id="@+id/playPause"
+            android:layout_gravity="center"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_weight="0.1"
+            android:background="@drawable/play"/>
     </LinearLayout>
 </RelativeLayout>
