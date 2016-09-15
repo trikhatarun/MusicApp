@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="mainScreen">Main Screen</string>
+    <string name="mainScreenDescription">Main screen contains All songs on the device and a footer that shows current playing music</string>
+    <string name="songTitle">Song Title</string>
+    <string name="artist">Artist Name</string>
+
+
+
+</resources>
