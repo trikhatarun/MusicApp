@@ -33,11 +33,7 @@
                 android:textColor="@android:color/white"/>
         </LinearLayout>
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="8dp"
-            android:background="@color/songs">
+            style="@style/song">
             <ImageView
                 android:layout_width="0dp"
                 android:layout_weight="0.1"
@@ -50,7 +46,6 @@
                 android:paddingLeft="8dp"
                 android:orientation="vertical">
                 <TextView
-                    android:layout_weight="0.9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="16sp"
@@ -70,11 +65,7 @@
             android:layout_height="1dp"
             android:background="@android:color/black"/>
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="8dp"
-            android:background="@color/songs">
+            style="@style/song">
             <ImageView
                 android:layout_width="0dp"
                 android:layout_weight="0.1"
@@ -108,11 +99,7 @@
             android:layout_height="1dp"
             android:background="@android:color/black"/>
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="8dp"
-            android:background="@color/songs">
+            style="@style/song">
             <ImageView
                 android:layout_width="0dp"
                 android:layout_weight="0.1"
@@ -146,11 +133,7 @@
             android:layout_height="1dp"
             android:background="@android:color/black"/>
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="8dp"
-            android:background="@color/songs">
+            style="@style/song">
             <ImageView
                 android:layout_width="0dp"
                 android:layout_weight="0.1"
@@ -184,11 +167,7 @@
             android:layout_height="1dp"
             android:background="@android:color/black"/>
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="8dp"
-            android:background="@color/songs">
+            style="@style/song">
             <ImageView
                 android:layout_width="0dp"
                 android:layout_weight="0.1"
@@ -222,11 +201,7 @@
             android:layout_height="1dp"
             android:background="@android:color/black"/>
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="8dp"
-            android:background="@color/songs">
+            style="@style/song">
             <ImageView
                 android:layout_width="0dp"
                 android:layout_weight="0.1"
@@ -260,11 +235,7 @@
             android:layout_height="1dp"
             android:background="@android:color/black"/>
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="8dp"
-            android:background="@color/songs">
+            style="@style/song">
             <ImageView
                 android:layout_width="0dp"
                 android:layout_weight="0.1"
@@ -298,11 +269,7 @@
             android:layout_height="1dp"
             android:background="@android:color/black"/>
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="8dp"
-            android:background="@color/songs">
+            style="@style/song">
             <ImageView
                 android:layout_width="0dp"
                 android:layout_weight="0.1"
@@ -336,11 +303,7 @@
             android:layout_height="1dp"
             android:background="@android:color/black"/>
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="8dp"
-            android:background="@color/songs">
+            style="@style/song">
             <ImageView
                 android:layout_width="0dp"
                 android:layout_weight="0.1"
@@ -374,11 +337,7 @@
             android:layout_height="1dp"
             android:background="@android:color/black"/>
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="8dp"
-            android:background="@color/songs">
+            style="@style/song">
             <ImageView
                 android:layout_width="0dp"
                 android:layout_weight="0.1"
@@ -412,11 +371,7 @@
             android:layout_height="1dp"
             android:background="@android:color/black"/>
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="8dp"
-            android:background="@color/songs">
+            style="@style/song">
             <ImageView
                 android:layout_width="0dp"
                 android:layout_weight="0.1"
@@ -443,7 +398,6 @@
                     android:text="@string/artist"
                     android:fontFamily="sans-serif-condensed"/>
             </LinearLayout>
-
         </LinearLayout>
     </LinearLayout>
     </ScrollView>
@@ -452,6 +406,7 @@
         android:layout_height="70dp"
         android:orientation="horizontal"
         android:background="@color/background"
+        android:id="@+id/footer"
         android:layout_alignParentBottom="true">
         <ImageView
             android:layout_width="70dp"
@@ -487,6 +442,7 @@
             android:layout_width="30dp"
             android:layout_height="40dp"
             android:layout_weight="0.1"
+            android:layout_marginRight="8dp"
             android:background="@drawable/play"/>
     </LinearLayout>
 </RelativeLayout>

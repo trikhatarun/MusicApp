@@ -4,4 +4,6 @@
     <string name="mainScreenDescription">Main screen contains All songs on the device and a footer that shows current playing music</string>
     <string name="songTitle">Song Title</string>
     <string name="artist">Artist Name</string>
+    <string name="songScreen">Current Playing Song Screen</string>
+    <string name="songScreenDescription">This screen displays the current song that is being played and its details with music controls</string>
 </resources>

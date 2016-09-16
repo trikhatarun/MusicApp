@@ -1,9 +1,11 @@
 package com.example.android.musicapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 
 public class MainActivity extends AppCompatActivity {
     int play = 0; //initially song is paused
@@ -25,5 +27,17 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+        LinearLayout footer = (LinearLayout) findViewById(R.id.footer);
+        footer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent currentSong = new Intent(MainActivity.this, currentSong.class);
+                startActivity(currentSong);
+            }
+        });
+    }
+    public void playSong(View v){
+        Intent currentSong = new Intent(MainActivity.this, currentSong.class);
+        startActivity(currentSong);
     }
 }
