@@ -6,4 +6,5 @@
     <string name="artist">Artist Name</string>
     <string name="songScreen">Current Playing Song Screen</string>
     <string name="songScreenDescription">This screen displays the current song that is being played and its details with music controls</string>
+    <string name="buySongs">Buy Songs</string>
 </resources>

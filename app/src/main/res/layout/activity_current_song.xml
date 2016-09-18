@@ -74,8 +74,7 @@
         <Button
             style="@style/buttons"
             android:id="@+id/shuffle"
-            android:background="@drawable/shuffle"
-            android:visibility="gone"/>
+            android:background="@drawable/shuffle" />
         <Button
             style="@style/buttons"
             android:id="@+id/shuffleOn"
@@ -97,7 +96,6 @@
         <Button
         style="@style/buttons"
         android:id="@+id/repeat"
-        android:visibility="gone"
         android:background="@drawable/repeat"/>
         <Button
             style="@style/buttons"
