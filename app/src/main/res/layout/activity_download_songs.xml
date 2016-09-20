@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_current_song"
+    android:id="@+id/activity_download_songs"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.musicapp.currentSong">
+    android:background="@color/background"
+    tools:context="com.example.android.musicapp.DownloadSongs">
+
     <LinearLayout
-        android:id="@+id/description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:background="@color/background"
-        android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="16dp"
+        android:id="@+id/description"
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/songScreen"
-            android:textColor="@android:color/white"
+            android:text="@string/downloadScreen"
+            android:textStyle="bold"
             android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textColor="@android:color/white" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/songScreenDescription"
+            android:text="@string/downloadScreenDescription"
             android:textColor="@android:color/white" />
     </LinearLayout>
 
@@ -60,10 +60,11 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/footer"
         android:layout_below="@id/header"
+        android:background="@android:color/white"
         android:layout_centerInParent="true"
         android:src="@drawable/artist" />
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/footer"
         android:layout_width="match_parent"
         android:layout_height="65dp"
@@ -71,37 +72,17 @@
         android:background="@color/background"
         android:orientation="horizontal"
         android:padding="8dp">
+
         <Button
-            style="@style/buttons"
-            android:id="@+id/shuffle"
-            android:background="@drawable/shuffle" />
+            style="@style/buttonDownloadScreen"
+            android:id="@+id/download"
+            android:background="@drawable/download" />
+
         <Button
-            style="@style/buttons"
-            android:id="@+id/shuffleOn"
-            android:background="@drawable/shuffle"
-            android:backgroundTint="@android:color/white"
-            android:visibility="gone"/>
-        <Button
-            style="@style/buttons"
-            android:id="@+id/previous"
-            android:background="@drawable/previous"/>
-        <Button
-            style="@style/buttons"
+            style="@style/buttonDownloadScreen"
             android:id="@+id/playPause"
-            android:background="@drawable/pause" />
-        <Button
-            style="@style/buttons"
-            android:id="@+id/next"
-            android:background="@drawable/next"/>
-        <Button
-        style="@style/buttons"
-        android:id="@+id/repeat"
-        android:background="@drawable/repeat"/>
-        <Button
-            style="@style/buttons"
-            android:id="@+id/repeatOn"
-            android:backgroundTint="@android:color/white"
-            android:visibility="gone"
-            android:background="@drawable/repeat"/>
-    </LinearLayout>
+            android:layout_centerInParent="true"
+            android:background="@drawable/play" />
+
+    </RelativeLayout>
 </RelativeLayout>

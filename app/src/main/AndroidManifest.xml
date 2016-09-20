@@ -18,7 +18,13 @@
         </activity>
         <activity
             android:name=".currentSong"
-            android:theme="@style/currentSong" />
+            android:theme="@style/RestApp" />
+        <activity
+            android:name=".DownloadSongs"
+            android:theme="@style/RestApp" />
+        <activity
+            android:name=".BuySong"
+            android:theme="@style/RestApp"></activity>
     </application>
 
 </manifest>

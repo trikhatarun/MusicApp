@@ -7,4 +7,9 @@
     <string name="songScreen">Current Playing Song Screen</string>
     <string name="songScreenDescription">This screen displays the current song that is being played and its details with music controls</string>
     <string name="buySongs">Buy Songs</string>
+    <string name="buySong">Buy Song Screen</string>
+    <string name="buySongScreenDescription">This screen displays songs with the option to buy them via Payment gateway that will be included</string>
+    <string name="buy">Buy</string>
+    <string name="downloadScreen">Download Screen</string>
+    <string name="downloadScreenDescription">This screen allows you to download the song bought which is later added to playlist of songs on the device</string>
 </resources>

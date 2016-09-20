@@ -60,8 +60,8 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.buySongs) {
-            Intent currentSong = new Intent(MainActivity.this, currentSong.class);
-            startActivity(currentSong);
+            Intent buySong = new Intent(MainActivity.this, BuySong.class);
+            startActivity(buySong);
         }
 
         return super.onOptionsItemSelected(item);
