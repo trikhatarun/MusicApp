@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class currentSong extends AppCompatActivity {
+public class CurrentSong extends AppCompatActivity {
     int play = 1; //initially song is playing
 
     @Override
@@ -35,13 +35,13 @@ public class currentSong extends AppCompatActivity {
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(currentSong.this, "Next song", Toast.LENGTH_SHORT).show();
+                Toast.makeText(CurrentSong.this, "Next song", Toast.LENGTH_SHORT).show();
             }
         });
         previous.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(currentSong.this, "Previous song", Toast.LENGTH_SHORT).show();
+                Toast.makeText(CurrentSong.this, "Previous song", Toast.LENGTH_SHORT).show();
             }
         });
         shuffleOff.setOnClickListener(new View.OnClickListener() {

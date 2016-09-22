@@ -34,11 +34,39 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+        LinearLayout playSong1 = (LinearLayout) findViewById(R.id.PlaySong1);
+        LinearLayout playSong2 = (LinearLayout) findViewById(R.id.PlaySong2);
+        LinearLayout playSong3 = (LinearLayout) findViewById(R.id.PlaySong3);
+        LinearLayout playSong4 = (LinearLayout) findViewById(R.id.PlaySong4);
+        playSong1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                playSong();
+            }
+        });
+        playSong2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                playSong();
+            }
+        });
+        playSong3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                playSong();
+            }
+        });
+        playSong4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                playSong();
+            }
+        });
         LinearLayout footer = (LinearLayout) findViewById(R.id.footer);
         footer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent currentSong = new Intent(MainActivity.this, currentSong.class);
+                Intent currentSong = new Intent(MainActivity.this, CurrentSong.class);
                 startActivity(currentSong);
             }
         });
@@ -67,8 +95,8 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void playSong(View v){
-        Intent currentSong = new Intent(MainActivity.this, currentSong.class);
+    private void playSong() {
+        Intent currentSong = new Intent(MainActivity.this, CurrentSong.class);
         startActivity(currentSong);
     }
 }

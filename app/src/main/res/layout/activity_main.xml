@@ -4,7 +4,6 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/background"
     android:orientation="vertical"
     tools:context="com.example.android.musicapp.MainActivity">
 
@@ -29,7 +28,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@color/background">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -49,7 +49,8 @@
                 android:textColor="@android:color/white"/>
         </LinearLayout>
         <LinearLayout
-            style="@style/song">
+            style="@style/song"
+            android:id="@+id/PlaySong1">
             <ImageView
                 android:layout_width="0dp"
                 android:layout_weight="0.1"
@@ -81,7 +82,8 @@
             android:layout_height="1dp"
             android:background="@android:color/black"/>
         <LinearLayout
-            style="@style/song">
+            style="@style/song"
+            android:id="@+id/PlaySong2">
             <ImageView
                 android:layout_width="0dp"
                 android:layout_weight="0.1"
@@ -115,7 +117,8 @@
             android:layout_height="1dp"
             android:background="@android:color/black"/>
         <LinearLayout
-            style="@style/song">
+            style="@style/song"
+            android:id="@+id/PlaySong3">
             <ImageView
                 android:layout_width="0dp"
                 android:layout_weight="0.1"
@@ -149,41 +152,8 @@
             android:layout_height="1dp"
             android:background="@android:color/black"/>
         <LinearLayout
-            style="@style/song">
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_weight="0.1"
-                android:layout_height="wrap_content"
-                android:src="@drawable/music"
-                android:layout_gravity="left"/>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.9"
-                android:paddingLeft="8dp"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_weight="0.9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:fontFamily="serif"
-                    android:text="@string/songTitle"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/artist"
-                    android:fontFamily="sans-serif-condensed"/>
-            </LinearLayout>
-
-        </LinearLayout>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/black"/>
-        <LinearLayout
-            style="@style/song">
+            style="@style/song"
+            android:id="@+id/PlaySong4">
             <ImageView
                 android:layout_width="0dp"
                 android:layout_weight="0.1"

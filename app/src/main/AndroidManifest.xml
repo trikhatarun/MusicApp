@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".currentSong"
+            android:name=".CurrentSong"
             android:theme="@style/RestApp" />
         <activity
             android:name=".DownloadSongs"

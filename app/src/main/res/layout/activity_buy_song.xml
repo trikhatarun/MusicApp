@@ -72,8 +72,8 @@
                 android:text="@string/buy"
                 android:padding="8dp"
                 android:layout_gravity="center"
-                android:onClick="buySong"
-                style="@style/Widget.AppCompat.Button.Borderless" />
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:id="@+id/BuySong1" />
         </LinearLayout>
 
         <View
@@ -120,8 +120,8 @@
                 android:text="@string/buy"
                 android:padding="8dp"
                 android:layout_gravity="center"
-                android:onClick="buySong"
-                style="@style/Widget.AppCompat.Button.Borderless" />
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:id="@+id/BuySong2" />
         </LinearLayout>
 
         <View
@@ -168,8 +168,8 @@
                 android:text="@string/buy"
                 android:padding="8dp"
                 android:layout_gravity="center"
-                android:onClick="buySong"
-                style="@style/Widget.AppCompat.Button.Borderless" />
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:id="@+id/BuySong3" />
         </LinearLayout>
 
         <View
@@ -216,8 +216,8 @@
                 android:text="@string/buy"
                 android:padding="8dp"
                 android:layout_gravity="center"
-                android:onClick="buySong"
-                style="@style/Widget.AppCompat.Button.Borderless" />
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:id="@+id/BuySong4" />
         </LinearLayout>
 
         <View
@@ -264,8 +264,8 @@
                 android:text="@string/buy"
                 android:padding="8dp"
                 android:layout_gravity="center"
-                android:onClick="buySong"
-                style="@style/Widget.AppCompat.Button.Borderless" />
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:id="@+id/BuySong5" />
         </LinearLayout>
 
         <View
@@ -312,8 +312,8 @@
                 android:text="@string/buy"
                 android:padding="8dp"
                 android:layout_gravity="center"
-                android:onClick="buySong"
-                style="@style/Widget.AppCompat.Button.Borderless" />
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:id="@+id/BuySong6" />
         </LinearLayout>
 
     </LinearLayout>
