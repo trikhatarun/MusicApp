@@ -1,14 +1,14 @@
 <resources>
     <string name="app_name">MusicApp</string>
     <string name="mainScreen">Main Screen</string>
-    <string name="mainScreenDescription">Main screen contains All songs on the device and a footer that shows current playing music</string>
+    <string name="mainScreenDescription">Main screen contains All songs on the device and a footer that shows current playing music. To do this app needs to get permission to access files by adding <b>&lt;uses-permission android:name=&quot;android.permission.READ_EXTERNAL_STORAGE&quot; /&gt;</b> to AndroidManifest.xml file</string>
     <string name="songTitle">Song Title</string>
     <string name="artist">Artist Name</string>
     <string name="songScreen">Current Playing Song Screen</string>
-    <string name="songScreenDescription">This screen displays the current song that is being played and its details with music controls</string>
+    <string name="songScreenDescription">This screen displays the current song that is being played and its details with music controls using MediaPlayer library. Media player is a java library that handles media. docs: https://developer.android.com/reference/android/media/MediaPlayer.html</string>
     <string name="buySongs">Buy Songs</string>
     <string name="buySong">Buy Song Screen</string>
-    <string name="buySongScreenDescription">This screen displays songs with the option to buy them via Payment gateway that will be included</string>
+    <string name="buySongScreenDescription">This screen displays songs with the option to buy them via In app billing services provided by google adding permission via &lt;uses-permission android:name=&quot;com.android.vending.BILLING&quot; /&gt; and integrating it using doc: https://developer.android.com/google/play/billing/billing_integrate.html</string>
     <string name="buy">Buy</string>
     <string name="downloadScreen">Download Screen</string>
     <string name="downloadScreenDescription">This screen allows you to download the song bought which is later added to playlist of songs on the device</string>
